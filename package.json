@@ -9,7 +9,8 @@
     "compile": "sass scss/style.scss:css/style.css",
     "prefix": "postcss --use autoprefixer -o css/style.css css/style.css",
     "minify": "cleancss --source-map --source-map-inline-sources --output css/style.min.css css/style.css",
-    "build": "npm run compile && npm run prefix && npm run minify"
+    "build": "npm run compile && npm run prefix && npm run minify",
+    "prepare": "husky install"
   },
   "author": "Serhii Piatak",
   "license": "ISC",
