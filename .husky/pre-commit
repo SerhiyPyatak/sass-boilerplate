@@ -1,4 +1,5 @@
 #!/bin/sh
+
 echo 'Start checking JavaScript files:'
 npx eslint js/*.js --format table 
 echo "Now let's fix problems"
